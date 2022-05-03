@@ -184,5 +184,6 @@ void reset(){
   score = 0;
   lives = Lives.getValueI();
   difficulty = 10;
+  loop();
   fallingMeteor(-100, width + 20, -250, -80, difficulty);
 }
